@@ -727,14 +727,7 @@ a {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-modal-close {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
-
-}
-
-.is-hidden {
+.backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -747,11 +740,18 @@ a {
     background-color: var(--primary-white-color);
     transform: scale(1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal {
     transform: scale(2);
+}
+
+.svg-modal-close {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
 }
 
 .modal-close-btn {
