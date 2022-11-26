@@ -137,6 +137,8 @@ a {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-item .header-nav-link:hover,
@@ -191,6 +193,8 @@ a {
     color: var(--secondary-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg-envelope {
@@ -252,6 +256,8 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     border: transparent;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -385,6 +391,9 @@ a {
     justify-content: center;
     border-radius: 50%;
     color: var(--social-team-color);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -420,6 +429,8 @@ a {
     border: 1px solid var(--social-team-color);
     border-radius: 4px;
     padding: 16px 32px;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-item-link:hover,
@@ -484,6 +495,8 @@ a {
     font-style: normal;
     line-height: 1.71;
     color: var(--footer-contact-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-item:not(:last-child) {
@@ -526,6 +539,8 @@ a {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--primary-white-color);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
@@ -576,6 +591,8 @@ a {
     border-radius: 4px;
     background-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
@@ -623,6 +640,10 @@ a {
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-text-color);
+}
+
+.card-link {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-link:hover,
