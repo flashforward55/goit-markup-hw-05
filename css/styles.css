@@ -704,6 +704,7 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-link:hover .card-link-text {
+.card-link:hover .card-link-text,
+.card-link:focus .card-link-text {
     transform: translateY(0);
 }
