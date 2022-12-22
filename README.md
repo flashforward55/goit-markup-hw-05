@@ -5,7 +5,7 @@
 - Создай репозиторий `goit-markup-hw-05`.
 - Склонируй созданный репозиторий и скопируй в него файлы предыдущей работы.
 - Добавь анимацию декоративных эффектов для страниц макета
-  [**домашнего задания #5**](<[https://www.figma.com/file/oTYBECAN79dXy19hzWObO4/Web-Studio-(Version-2.1)?node-id=1%3A836](https://www.figma.com/file/ySHXIhZMJd5rFjANTnh8g9/Awesome-UI-(Copy)?node-id=0%3A1&t=aBTz2AQHBwZPOYHu-0)>).
+  [**домашнего задания #5**](<https://www.figma.com/file/ySHXIhZMJd5rFjANTnh8g9/Awesome-UI-(Copy)?node-id=0%3A1&t=aBTz2AQHBwZPOYHu-0>).
 - Настрой `GitHub Pages` и добавь ссылку на живую страницу в шапку
   GitHub-репозитория.
 
